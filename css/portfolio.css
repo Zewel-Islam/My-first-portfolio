@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins&family=Roboto&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+.text-primary {
+  color: #fd6e0a;
+}
+.btn-primary {
+  background-color: #fd6e0a;
+  padding: 15px 30px;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+  border: 0;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+html {
+  font-size: 62.5%;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-title {
+  font-size: 4.5rem;
+  font-weight: 800;
+  color: #181818;
+}
+nav > ul {
+  display: flex;
+  align-items: center;
+}
+nav li {
+  list-style: none;
+  margin-right: 5rem;
+}
+nav a {
+  text-decoration: none;
+  color: #474747;
+  font-size: 2rem;
+}
