@@ -89,6 +89,10 @@ nav a {
 }
 
 /* Main section */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
 .section-title {
   color: #181818;
   text-align: center;
@@ -101,6 +105,7 @@ nav a {
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 3rem;
+  margin: 3rem 0;
 }
 
 /* About Section */
@@ -109,6 +114,23 @@ nav a {
   background: #fff8f3;
   padding: 13rem 15rem;
   text-align: center;
-  width: 114rem;
+  max-width: 83rem;
   margin: 130px auto;
+}
+
+.about-info-container {
+  display: flex;
+  justify-content: space-between;
+}
+.about-info .info-title {
+  color: #757575;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 0.5rem;
+}
+.about-info .info-description {
+  color: #474747;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 0.5rem;
 }
